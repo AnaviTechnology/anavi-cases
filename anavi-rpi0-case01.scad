@@ -1,9 +1,10 @@
+//Bottom
 translate([0,0,2]) 
 {
     difference()
     {
-        cube([69,34,2], true);
-        for (i=[-40:20:20])
+        cube([69,34,1], true);
+        for (i=[-40:20:0])
         {
             echo(i);
             translate([i,0,0])
@@ -15,27 +16,39 @@ translate([0,0,2])
     }
 }
 
+//Sides
 translate([0,0,6]) 
 {
     difference()
     {
         cube([69,34,8], true);
         cube([65,30,8], true);
+        //Еdge
         translate([0,0,4])
             cube([67,32,2], true);
-        translate([-20.5,-15,4])
+        //Place for the miniHDMI
+        translate([-19.5,-15,4])
             cube([14,32,10], true);
-        translate([15,-15,4])
-            cube([24,32,10], true);
+        //Place for the two microUSBs
+        translate([14.5,-15,4])
+            cube([22,32,10], true);
+        //microSD card
+        translate([-33.5,2,4])
+            cube([2,14,10], true);
+        //Leave space for the camera
+        translate([33,2,1])
+            cube([1,18,10], true);
     }
 }
 
-translate([30.5,14,3.5])
+
+//Holders
+translate([30.5,14,3])
     cube([4,2,1.5], true);
-translate([-30.5,14,3.5])
+translate([-30.5,14,3])
     cube([4,2,1.5], true);
 
-translate([30.5,-14,3.5])
+translate([30.5,-14,3])
     cube([4,2,1.5], true);
-translate([-30.5,-14,3.5])
+translate([-30.5,-14,3])
     cube([4,2,1.5], true);

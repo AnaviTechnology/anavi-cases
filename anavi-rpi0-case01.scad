@@ -29,15 +29,18 @@ translate([0,0,6])
         //Place for the miniHDMI
         translate([-19.5,-15,4])
             cube([14,32,10], true);
-        //Place for the two microUSBs
-        translate([14.5,-15,4])
-            cube([22,32,10], true);
+        //Place for the 1st microUSB
+        translate([21,-15,4])
+            cube([9,32,10], true);
+        //Place for the 2st microUSB
+        translate([10,-15,4])
+            cube([9,32,10], true);
         //microSD card
         translate([-33.5,2,4])
             cube([2,14,10], true);
         //Leave space for the camera
-        translate([33,2,1])
-            cube([1,18,10], true);
+        translate([33,0,1])
+            cube([1,20,10], true);
     }
 }
 

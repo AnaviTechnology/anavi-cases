@@ -43,7 +43,7 @@ translate([0,0,6])
             cube([1,20,10], true);
 
         //Placeholder for the hanger of the top of the case
-        translate([0,16.5,1.5])
+        translate([0,16.5,0.5])
             cube([4,1,1], true);
     }
 }

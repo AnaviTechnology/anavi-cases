@@ -48,6 +48,7 @@ translate([0,0,2])
     }
 }
 
+//Hanger
 translate([0,17.5,0])
 {
     union()

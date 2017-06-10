@@ -30,10 +30,10 @@ translate([0,0,6])
         translate([-19.5,-15,4])
             cube([14,32,10], true);
         //Place for the 1st microUSB
-        translate([21,-15,4])
+        translate([21.5,-15,4])
             cube([9,32,10], true);
         //Place for the 2st microUSB
-        translate([10,-15,4])
+        translate([9.5,-15,4])
             cube([9,32,10], true);
         //microSD card
         translate([-33.5,2,4])
@@ -41,9 +41,12 @@ translate([0,0,6])
         //Leave space for the camera
         translate([33,0,1])
             cube([1,20,10], true);
+
+        //Placeholder for the hanger of the top of the case
+        translate([0,16.5,1.5])
+            cube([4,1,1], true);
     }
 }
-
 
 //Holders
 translate([30.5,14,3])

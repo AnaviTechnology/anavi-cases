@@ -35,11 +35,11 @@ translate([0,0,2])
         cube([14,5,10], true);
     
     //1st microUSB
-    translate([21,-17,4])
+    translate([21.5,-17,4])
         cube([9,5,10], true);
     
     //2st microUSB
-    translate([10,-17,4])
+    translate([9.5,-17,4])
         cube([9,5,10], true);
         
     //40pin header

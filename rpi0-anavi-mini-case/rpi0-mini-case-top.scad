@@ -51,8 +51,8 @@ translate([0,17.5,0])
 {
     union()
     {
-        cube([4,1,3], true);
+        cube([6,1,3], true);
         translate([0,-1,-1])
-            cube([4,1,1], true);
+            cube([6,1,1], true);
     }
 }

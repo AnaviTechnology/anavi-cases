@@ -8,6 +8,7 @@ module roundedSquare( width, length, radiusCorner ) {
 
 //Make it 3D
 //linear_extrude(height = 0.2, center = true, convexity = 10, twist = 0)
+
 difference()
 {
     roundedSquare(8.5, 5.6, 0.3);

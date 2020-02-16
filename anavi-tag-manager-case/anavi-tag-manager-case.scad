@@ -7,7 +7,7 @@ module roundedSquare( width, length, radiusCorner ) {
 }
 
 //Make it 3D
-//linear_extrude(height = 0.2, center = true, convexity = 10, twist = 0)
+linear_extrude(height = 0.2, center = true, convexity = 10, twist = 0)
 
 difference()
 {
@@ -25,17 +25,17 @@ difference()
         circle(0.2, true, $fn=50);
     
     // Sensors
-    translate([3.4,1.3])
-        square([1.4, 2.2], true);
+    translate([3.5,1.3])
+        square([1.6, 2.2], true);
     translate([2.55,0.8])
         square([0.3, 1.2], true);
     
     // Diplay
-    translate([4.6,3.3])
+    translate([4.5,3.3])
         square([0.4, 1.2], true);
         
     // Button
-    translate([6,3.48])
+    translate([5.9,3.48])
         circle(0.15, true, $fn=50);
 }
 

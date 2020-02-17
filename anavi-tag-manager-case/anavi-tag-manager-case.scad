@@ -25,17 +25,17 @@ difference()
         circle(0.2, true, $fn=50);
     
     // Sensors
-    translate([3.5,1.3])
+    translate([3.5,1.2])
         square([1.6, 2.2], true);
-    translate([2.55,0.8])
-        square([0.3, 1.2], true);
+    translate([2.55,0.75])
+        square([0.3, 1.3], true);
     
     // Diplay
-    translate([4.5,3.3])
-        square([0.4, 1.2], true);
+    translate([4.55,3.3])
+        square([0.45, 1.2], true);
         
     // Button
-    translate([5.9,3.48])
+    translate([5.9,3.4])
         circle(0.15, true, $fn=50);
 }
 

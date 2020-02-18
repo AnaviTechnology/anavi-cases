@@ -14,7 +14,7 @@ union()
     difference()
     {
         translate([4,2.5])
-        square( [7.6, 5], true);
+            square( [7.6, 5], true);
         
         // Mounting holes
         translate([0.75,1])
@@ -30,11 +30,11 @@ union()
     }
     // Holes for the bottom plate
     translate([2,-0.1])
-        square([0.85, 0.2], true);
+        square([0.98, 0.2], true);
     translate([6,-0.1])
-        square([0.85, 0.2], true);
+        square([0.98, 0.2], true);
     translate([2,5.1])
-        square([0.85, 0.2], true);
+        square([0.98, 0.2], true);
     translate([6,5.1])
-        square([0.85, 0.2], true);
+        square([0.98, 0.2], true);
 }

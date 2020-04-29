@@ -35,7 +35,7 @@ difference()
         square([0.45, 1.2], true);
         
     // Button
-    translate([5.9,3.4])
+    translate([6.0,3.4])
         circle(0.15, true, $fn=50);
 }
 

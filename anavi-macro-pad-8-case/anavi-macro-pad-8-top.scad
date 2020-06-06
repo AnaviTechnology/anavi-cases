@@ -33,9 +33,10 @@ difference()
 		
 	// Keyboard buttons
 	translate([85,23.5])
-        square([82, 39], true);
+        square([82, 41], true);
 	
 	//translate([67.5, 0])
+	//translate([0, 0])
 	//	square([67.5,47]);
 }
 

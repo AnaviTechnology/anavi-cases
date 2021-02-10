@@ -1,6 +1,8 @@
-# Open Source Raspberry Pi Cases
+# ANAVI Open Source Cases and Acrylic Enclosures
 
-The project provides Raspberry Pi cases for 3D printing and CNC laser cutting.
+The project provides various cases and acrylic enclosures for 3D printing and CNC laser cutting.
+
+Thanks to [Experify 3D Print](https://www.instagram.com/experify3dprint/) for contributing the 3D case for ANAVI Macro Pad 8.
 
 # License
 The project is released under the [Creative Commons Attribution-NonCommercial 3.0 Unported (CC BY-NC 3.0) license](https://creativecommons.org/licenses/by-nc/3.0/legalcode).

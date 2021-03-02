@@ -11,12 +11,12 @@ module roundedSquare( width, length, radiusCorner ) {
 
 difference()
 {
-	roundedSquare(65, 38, 2);
+	roundedSquare(77, 38, 2);
 		
 	translate([5, 0])
 		square([2,15]);
 	
-	translate([58, 0])
+	translate([70, 0])
 		square([2,15]);
 }
 

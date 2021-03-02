@@ -7,7 +7,7 @@ module roundedSquare( width, length, radiusCorner ) {
 }
 
 //Make it 3D
-linear_extrude(height = 2, center = true, convexity = 10, twist = 0)
+//linear_extrude(height = 2, center = true, convexity = 10, twist = 0)
 
 difference()
 {
@@ -21,7 +21,7 @@ difference()
         circle(2, true, $fn=50);
 	
 	// Capacitor
-	translate([21,24])
+	translate([22,24])
         circle(3, true, $fn=50);
 }
 

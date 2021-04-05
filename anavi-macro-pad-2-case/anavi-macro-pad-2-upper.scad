@@ -15,14 +15,14 @@ difference()
 		roundedSquare(41, 19, 2);
     
     // Mounting holes
-    translate([3.2,23.35])
+    translate([3.3,23.35])
         circle(2, true, $fn=50);
-    translate([37.8,23.35])
+    translate([37.7,23.35])
         circle(2, true, $fn=50);
 	
 	// Capacitor
 	translate([22,24])
-        circle(2.6, true, $fn=50);
+        circle(3, true, $fn=50);
 }
 
 
